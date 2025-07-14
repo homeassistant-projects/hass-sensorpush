@@ -1,12 +1,13 @@
 {
     "domain": "sensorpush",
     "name": "SensorPush",
-    "codeowners": ["@rsnodgrass"],
+    "brand": "sensorpush",
+    "codeowners": ["@homeassistant-projects"],
     "config_flow": false,
     "dependencies": [],
-    "documentation": "https://github.com/rsnodgrass/hass-sensorpush/",
+    "documentation": "https://github.com/homeassistant-projects/hass-sensorpush/",
     "iot_class": "cloud_polling",
-    "issue_tracker": "https://github.com/rsnodgrass/hass-sensorpush/issues",
+    "issue_tracker": "https://github.com/homeassistant-projects/hass-sensorpush/issues",
     "requirements": ["pysensorpush>=0.1.7"],
     "version": "0.1.6"
 }
