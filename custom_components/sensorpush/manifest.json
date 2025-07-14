@@ -1,7 +1,6 @@
 {
     "domain": "sensorpush",
     "name": "SensorPush",
-    "brand": "sensorpush",
     "codeowners": ["@homeassistant-projects"],
     "config_flow": false,
     "dependencies": [],
