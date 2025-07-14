@@ -40,7 +40,7 @@ Make sure you have installed [Home Assistant Community Store (HACS)](https://git
 #### Versions
 
 The 'master' branch of this custom component is considered unstable, alpha quality, and not guaranteed to work.
-Please make sure to use one of the official release branches when installing using HACS, see [what has changed in each version](https://github.com/rsnodgrass/hass-sensorpush/releases).
+Please make sure to use one of the official release branches when installing using HACS, see [what has changed in each version](https://github.com/homeassistant-projects/hass-sensorpush/releases).
 
 ### Step 2: Enable API Access
 
@@ -61,7 +61,7 @@ sensor:
 
 #### Lovelace
 
-![Lovelace Example](https://github.com/rsnodgrass/hass-sensorpush/blob/master/docs/sensorpush-entities.png?raw=true)
+![Lovelace Example](https://github.com/homeassistant-projects/hass-sensorpush/blob/master/docs/sensorpush-entities.png?raw=true)
 
 ```yaml
 entities:
@@ -89,7 +89,7 @@ type: gauge
 
 More complex example using mini-graph-card and color thresholds:
 
-![Lovelace Example](https://github.com/rsnodgrass/hass-sensorpush/blob/master/docs/sensorpush-graph.png?raw=true)
+![Lovelace Example](https://github.com/homeassistant-projects/hass-sensorpush/blob/master/docs/sensorpush-graph.png?raw=true)
 
 ```yaml
 cards:
@@ -150,7 +150,7 @@ sensor:
 ## See Also
 
 * [Community support for Home Assistant SensorPush integration](https://community.home-assistant.io/t/sensorpush-humidity-and-temperature-sensors/105711)
-* [pysensorpush](https://github.com/rsnodgrass/pysensorpush) - Python interface to SensorPush cloud API
+* [pysensorpush](https://github.com/homeassistant-projects/pysensorpush) - Python interface to SensorPush cloud API
 * [SensorPush](https://sensorpush.com) (official product page)
 * [ReviewGeek's review of SensorPush](https://www.reviewgeek.com/3291/sensor-push-review-the-best-smart-hygrometer-and-thermometer-around/)
 
@@ -158,7 +158,7 @@ sensor:
 
 No plans to implement the following at this time. However, community contributions to add these features would be greatly appreciated!
 
-- [applying calibration adjustments to individual sensors made within the SensorPush app](https://github.com/rsnodgrass/hass-sensorpush/issues/18)
+- [applying calibration adjustments to individual sensors made within the SensorPush app](https://github.com/homeassistant-projects/hass-sensorpush/issues/18)
 - poll data directly from sensors via Bluetooth (no cloud dependency required)
 - supporting multiple SensorPush accounts within a single Home Assistance instance
 
