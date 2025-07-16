@@ -2,8 +2,8 @@
 
 [🥈](https://www.home-assistant.io/docs/quality_scale/)
 ![beta_badge](https://img.shields.io/badge/maturity-Beta-yellow.png)
-![release_badge](https://img.shields.io/github/v/release/rsnodgrass/hass-sensorpush.svg)
-![release_date](https://img.shields.io/github/release-date/rsnodgrass/hass-sensorpush.svg)
+![release_badge](https://img.shields.io/github/v/release/homeassistant-projects/hass-sensorpush.svg)
+![release_date](https://img.shields.io/github/release-date/homeassistant-projects/hass-sensorpush.svg)
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -35,7 +35,7 @@ This integration was developed to cover use cases for my home integration and re
 
 ### Step 1: Install Custom Components
 
-Make sure you have installed [Home Assistant Community Store (HACS)](https://github.com/custom-components/hacs), then add the "Integration" repository: *rsnodgrass/hass-sensorpush*.
+Make sure you have installed [Home Assistant Community Store (HACS)](https://github.com/custom-components/hacs), then add the "Integration" repository: *homeassistant-projects/hass-sensorpush*.
 
 #### Versions
 
